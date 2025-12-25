@@ -5,7 +5,7 @@ import torch
 def main():
     # 1. Cấu hình
     MODEL_NAME = "Qwen/Qwen3-VL-4B-Instruct"
-    IMAGE_URL = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/200px-Python-logo-notext.svg.png"
+    IMAGE_URL = "http://images.cocodataset.org/val2017/000000039769.jpg"
     PROMPT = "Describe this image."
 
     print("Loading model... (this may take a while)")
