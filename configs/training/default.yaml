@@ -1,0 +1,4 @@
+accelerator: gpu
+devices: 2
+strategy: ddp
+max_epochs: 10
