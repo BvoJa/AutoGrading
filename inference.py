@@ -6,7 +6,7 @@ def main():
     # 1. Cấu hình
     MODEL_NAME = "Qwen/Qwen3-VL-4B-Instruct"
     IMAGE_URL = "http://images.cocodataset.org/val2017/000000039769.jpg"
-    PROMPT = "Describe this image."
+    PROMPT = "How many cats are there in the picture, desribe each of them"
 
     print("Loading model... (this may take a while)")
     # Khởi tạo model module
